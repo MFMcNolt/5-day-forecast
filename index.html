@@ -7,17 +7,44 @@
     <link rel="stylesheet" href="style.css"/>
     <title>5 Day Weather Forecast</title>
 </head>
-<body>
- <header>
-    <!--Navbar?-->
- </header>
 
- <main>
-    <!--Search-->
-    <!--Cities-->
-    <!--Current Forecast-->
-    <!--5 day Forecast-->
- </main>
+<body class="flex-colomn min-100-vh">
+  <header class="hero">
+    <h1 class="app-title">
+      <i class="fas fa-cloud-sun-rain"></i> 5 Day Weather Dashboard
+    </h1>
+</header>
+
+<main class="flex-row justify-space-between">
+  <div class="col-12 col-sm-12 col-md-4 float-left">
+
+    <div class="card">
+      <h3 class="card-header text-uppercase">Search for a city</h3>
+      <div id="user-form" class="card-body">
+        <input type="text" id="myInput" placeholder="City Name..."/>
+        <button class="btn" id="searchBtn">Search</button>
+      </div>
+    </div>
+
+    <div class="card history">
+      <h3 class="card-header text-uppercase">Search History</h3>
+    </div>
+  </div>
+
+  <div class="col-12 col-sm-12 col-md-8 float-right">
+    <div>
+      <h2 class="subtitle text-uppercase bg-light">Current Weather</h2>
+      <div class="city"></div>
+    </div>
+
+    <div>
+      <h2 class="subtitle text-uppercase bg-light">5 Day forecast</h2>
+      <div class="five-day"></div>
+    </div>
+  </div>
+
+
+</main>
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.0/jquery.min.js"></script>
     <script src="script.js"></script>
