@@ -91,5 +91,66 @@ main {
     padding: 3% 4%;
     color: var(--primary);
 }
+ 
+.app-title {
+    font-size: 3rem;
+    background-color: var(--primary);
+    color: var(--dark);
+    padding: 0 10px;
+    display: inline-block;
+    border-radius: var(--border-radius);
+    box-shadow: 6px 5px var(--light-dark);
+}
   
+.list-group {
+    margin-bottom: 10px;
+    padding: 1.5%;
+    border-radius: var(--border-radius);
+    background-color: var(--light-dark);
+    color: white;
+    text-decoration: none;
+
+}
+  
+.list-item:hover {
+    background-color: var(--dark);
+}
+  
+.icon {
+    width:10%;
+    height:10%;
+}
+
+.card {
+    margin: 0 0 20px 0;
+    border: 3px solid var(--dark);
+    border-radius: var(--border-radius);
+}
+  
+.card-header {
+    color: var(--primary);
+    background-color: var(--dark);
+    padding: 2.5%;
+    border-radius: calc(0.18rem - 1px) calc(0.18rem - 1px) 0 0;
+}
+
+.weather-card {
+    margin-bottom: 10px;
+    padding: 1.5%;
+    border-radius: var(--border-radius);
+    background-color: var(--light-dark);
+    color: var(--primary);
+    text-decoration: none;
+    margin-right: 10px;
+    height: 250px;
+    line-height: 1.8;
+}
+
+.five-day {
+    display:flex;
+}
+
+.subtitle {
+    display:none;
+}
 
