@@ -6,7 +6,6 @@ The motivation behind building this Weather Dashboard was to create a user-frien
 
 The project was built to address the need for a simple and intuitive weather application. It goes beyond a mere homework assignment, aiming to provide practical value to users who want to stay informed about the weather conditions for different locations both current and in the future. The inclusion of a search history feature adds a convenient element for users who frequently check the weather for multiple cities.
 
-What did you learn?
 While working on this project, I learned several key concepts and skills:
 
 - API Integration: I gained experience in integrating external APIs, specifically the OpenWeatherMap API, to fetch real-time weather data.
@@ -18,6 +17,8 @@ While working on this project, I learned several key concepts and skills:
 Overall, the project provided a practical application of web development skills, combining data fetching, dynamic content generation, and user interaction in the context of a weather dashboard.
 
 ## Installation
+
+You can visit the live site here: https://mfmcnolt.github.io/5-day-forecast/
 
 There is no installing neccessary for this project, however, I needed to create an Open Weather account which allowed me access to an API Key that I used in my JavaScript.
 
