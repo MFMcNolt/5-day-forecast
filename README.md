@@ -2,32 +2,64 @@
 
 ## Description
 
-The motivation behind building this Weather Dashboard was to create a user-friendly web application that allows users to quickly check the current weather and a 5-day forecast for a specific city. The inclusion of a search history feature was aimed at enhancing user experience and providing easy access to previously searched cities.
+The motivation behind building this Weather Dashboard was to create a user-friendly web application that allows users to quickly search for the current weather as well as a 5-day forecast for a specific city. The inclusion of a search history feature was aimed at enhancing user experience and providing easy access to previously searched cities.
 
+The project was built to address the need for a simple and intuitive weather application. It goes beyond a mere homework assignment, aiming to provide practical value to users who want to stay informed about the weather conditions for different locations both current and in the future. The inclusion of a search history feature adds a convenient element for users who frequently check the weather for multiple cities.
 
+What did you learn?
+While working on this project, I learned several key concepts and skills:
 
-## Table of Contents (Optional)
+API Integration: I gained experience in integrating external APIs, specifically the OpenWeatherMap API, to fetch real-time weather data.
 
-If your README is long, add a table of contents to make it easy for users to find what they need.
+Event Handling: I utilized event listeners to capture user input, such as city names and button clicks, to trigger the fetching of weather data.
 
-- [Installation](#installation)
-- [Usage](#usage)
-- [Credits](#credits)
-- [License](#license)
+Local Storage Usage: The project involved using local storage to store and retrieve search history information, providing a persistent record of user interactions.
+
+Error Handling: I implemented error handling to manage potential issues, such as failed API requests, providing a more robust user experience.
+
+Bootstrap CSS: I utilized Bootstrap to help create a user friendly interface without having to take up too much time building with vanilla css.
+
+Overall, the project provided a practical application of web development skills, combining data fetching, dynamic content generation, and user interaction in the context of a weather dashboard.
 
 ## Installation
 
-What are the steps required to install your project? Provide a step-by-step description of how to get the development environment running.
+There is no installing neccessary for this project, however, I needed to create an Open Weather account which allowed me access to an API Key that I used in my JavaScript.
 
-## Usage
+## Usage and Features
 
-Provide instructions and examples for use. Include screenshots as needed.
-
-To add a screenshot, create an `assets/images` folder in your repository and upload your screenshot to it. Then, using the relative filepath, add it to your README using the following syntax:
-
+Open the Weather Dashboard in your web browser and you will come to this page, which is fairly straight forward:
+    
     ```md
-    ![alt text](assets/images/screenshot.png)
+    ![alt text](/Users/marionfergusonmcnulty/challenge/week6/assets/Images/Screenshot.png)
     ```
+
+Below is a breakdown of the site functionality:
+
+Searching for Weather Information: 
+In the "Enter a City Name" input field, type the name of the city you want to check the weather for. Click the "Search" button.
+
+Viewing Current Weather:
+The current weather details for the entered city will be displayed under the "Current Weather" section. Information includes temperature, wind speed, humidity, and a brief weather description.
+
+Checking the 5-Day Forecast:
+Scroll down to the "5-Day Forecast" section to view a forecast for the next five days.
+Each day includes the date, temperature, wind speed, humidity, and a weather icon.
+
+Using Search History:
+After searching for a city, its name is added to the "Search History" list on the right side.
+Click on a city in the search history to quickly retrieve weather information for that city.
+
+Using Current Location:
+Click the "Use Current Location" button to fetch weather information based on your device's current location.
+
+UV Index Color Indicators:
+The UV Index in the current weather details is color-coded to indicate whether conditions are favorable, moderate, or severe.
+
+Error Handling:
+If there's an issue with the search or data retrieval, an error message will be displayed, providing feedback to the user.
+
+Responsive Design:
+The Weather Dashboard is designed to be responsive, providing a seamless experience across different screen sizes.
 
 ## Credits
 
@@ -35,28 +67,32 @@ In order to build this, I needed to invest some time into relearning about API i
 
 - https://www.youtube.com/watch?v=SeXg3AX82ig&t=1256s
 
-## License
 
-The last section of a high-quality README file is the license. This lets other developers know what they can and cannot do with your project. If you need help choosing a license, refer to [https://choosealicense.com/](https://choosealicense.com/).
+## Tools and Technologies
 
----
+1. HTML (HyperText Markup Language):
+Used for structuring the content of the web page.
+2. CSS (Cascading Style Sheets):
+Applied styles to HTML elements, providing visual design and layout.
+3. Bootstrap:
+Utilized the Bootstrap framework for styling and responsiveness.
+4. JavaScript:
+Used for adding interactivity and dynamic behavior to the web page.
+5. jQuery:
+Incorporated jQuery, a JavaScript library, for simplified DOM manipulation and event handling.
+6. OpenWeatherMap API:
+Integrated the OpenWeatherMap API to fetch real-time weather data.
+7. Geocoding API (Reverse and Direct):
+Used the OpenWeatherMap Geocoding API to convert between geographic coordinates and location names.
+8. LocalStorage:
+Utilized the LocalStorage feature in JavaScript to store and retrieve search history data locally on the user's device.
+9. Git: 
+Git was used to track changes and save changes externally especially whilst debugging.
 
-🏆 The previous sections are the bare minimum, and your project will ultimately determine the content of this document. You might also want to consider adding the following sections.
+These tools and technologies collectively contribute to the development of a dynamic and feature-rich Weather Dashboard.
 
-## Badges
 
-![badmath](https://img.shields.io/github/languages/top/lernantino/badmath)
 
-Badges aren't necessary, per se, but they demonstrate street cred. Badges let other developers know that you know what you're doing. Check out the badges hosted by [shields.io](https://shields.io/). You may not understand what they all represent now, but you will in time.
 
-## Features
 
-If your project has a lot of features, list them here.
 
-## How to Contribute
-
-If you created an application or package and would like other developers to contribute it, you can include guidelines for how to do so. The [Contributor Covenant](https://www.contributor-covenant.org/) is an industry standard, but you can always write your own if you'd prefer.
-
-## Tests
-
-Go the extra mile and write tests for your application. Then provide examples on how to run them here.
