@@ -9,15 +9,11 @@ The project was built to address the need for a simple and intuitive weather app
 What did you learn?
 While working on this project, I learned several key concepts and skills:
 
-API Integration: I gained experience in integrating external APIs, specifically the OpenWeatherMap API, to fetch real-time weather data.
-
-Event Handling: I utilized event listeners to capture user input, such as city names and button clicks, to trigger the fetching of weather data.
-
-Local Storage Usage: The project involved using local storage to store and retrieve search history information, providing a persistent record of user interactions.
-
-Error Handling: I implemented error handling to manage potential issues, such as failed API requests, providing a more robust user experience.
-
-Bootstrap CSS: I utilized Bootstrap to help create a user friendly interface without having to take up too much time building with vanilla css.
+- API Integration: I gained experience in integrating external APIs, specifically the OpenWeatherMap API, to fetch real-time weather data.
+- Event Handling: I utilized event listeners to capture user input, such as city names and button clicks, to trigger the fetching of weather data.
+- Local Storage Usage: The project involved using local storage to store and retrieve search history information, providing a persistent record of user interactions.
+- Error Handling: I implemented error handling to manage potential issues, such as failed API requests, providing a more robust user experience.
+- Bootstrap CSS: I utilized Bootstrap to help create a user friendly interface without having to take up too much time building with vanilla css.
 
 Overall, the project provided a practical application of web development skills, combining data fetching, dynamic content generation, and user interaction in the context of a weather dashboard.
 
@@ -28,37 +24,29 @@ There is no installing neccessary for this project, however, I needed to create 
 ## Usage and Features
 
 Open the Weather Dashboard in your web browser and you will come to this page, which is fairly straight forward:
-    
-    ```md
-    ![alt text](/Users/marionfergusonmcnulty/challenge/week6/assets/Images/Screenshot.png)
-    ```
+
+![alt text][assets/Images/Screenshot.png]
+
 
 Below is a breakdown of the site functionality:
 
-Searching for Weather Information: 
+- Searching for Weather Information: 
 In the "Enter a City Name" input field, type the name of the city you want to check the weather for. Click the "Search" button.
-
-Viewing Current Weather:
+- Viewing Current Weather:
 The current weather details for the entered city will be displayed under the "Current Weather" section. Information includes temperature, wind speed, humidity, and a brief weather description.
-
-Checking the 5-Day Forecast:
+- Checking the 5-Day Forecast:
 Scroll down to the "5-Day Forecast" section to view a forecast for the next five days.
 Each day includes the date, temperature, wind speed, humidity, and a weather icon.
-
-Using Search History:
+- Using Search History:
 After searching for a city, its name is added to the "Search History" list on the right side.
 Click on a city in the search history to quickly retrieve weather information for that city.
-
-Using Current Location:
+- Using Current Location:
 Click the "Use Current Location" button to fetch weather information based on your device's current location.
-
-UV Index Color Indicators:
+- UV Index Color Indicators:
 The UV Index in the current weather details is color-coded to indicate whether conditions are favorable, moderate, or severe.
-
-Error Handling:
+- Error Handling:
 If there's an issue with the search or data retrieval, an error message will be displayed, providing feedback to the user.
-
-Responsive Design:
+- Responsive Design:
 The Weather Dashboard is designed to be responsive, providing a seamless experience across different screen sizes.
 
 ## Credits
@@ -96,3 +84,6 @@ These tools and technologies collectively contribute to the development of a dyn
 
 
 
+
+
+[assets/Images/Screenshot.png]: https://raw.githubusercontent.com/MFMcNolt/5-day-forecast/fa781685bbb504dbd50f6446dd930faf0e69004f/assets/Images/Screenshot.png
